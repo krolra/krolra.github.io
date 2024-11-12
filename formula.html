@@ -23,7 +23,6 @@
 	<a href="formula.html"> FORMULARZ	</a> <br />
 </div>
 <div style="float:right; width:70%; background-color:aqua;">
-<form action="mailto:twój_adres_poczty@domena" method="post" enctype="text/plain"><div>
 
 <input name="Imię">Podaj swoje imię<br>
 <input name="Nazwisko">Podaj swoje nazwisko
@@ -41,24 +40,24 @@
 <input type="radio" name="Wiek" value="40-60">40-60<br>
 <input type="radio" name="Wiek" value="więcej niż 60">więcej niż 60 
 
-<p>Jaką lubisz muzykę (możesz zaznaczyć więcej możliwości)?</p>
-<input type="checkbox" name="książki" value="Rock">Rock<br>
-<input type="checkbox" name="książki" value="Heavy Metal">Heavy Metal<br>
-<input type="checkbox" name="książki" value="Pop">Pop<br>
-<input type="checkbox" name="książki" value="Techno">Techno<br>
-<input type="checkbox" name="książki" value="Muzyka poważna">Muzyka poważna<br>
-<input type="checkbox" name="książki" value="Inna">Inna (podaj jaka):
-<input name="Muzyka">
-<!-- Lista rozwijalna (typ podstawowy) z zaznaczoną opcją domyślną -->
+<p>Jakie książki wybierasz (możesz zaznaczyć więcej możliwości)?</p>
+<input type="checkbox" name="książki" value="historyczne">historyczne<br>
+<input type="checkbox" name="książki" value="przygodowe">przygodowe<br>
+<input type="checkbox" name="książki" value="fantazy">fantazy<br>
+<input type="checkbox" name="książki" value="dekarskie">dekarskie<br>
+<input type="checkbox" name="książki" value="nie wiem">nie wiem<br>
+<input type="checkbox" name="książki" value="Inna">Inna 
+<input name="książki">
+
 <p>Jakiej przeglądarki internetowej używasz?</p>
 <select name="Przeglądarka">
-	<option selected>Chrome</option>
+	<option>Chrome</option>
 	<option>Opera</option>
 	<option>Firefox</option>
     <option>Edge</option>
 	<option>Inna</option>
 </select>
-<!-- Lista rozwijalna (typ rozszerzony) z zaznaczoną opcją domyślną i zmniejszoną wysokością -->
+
 <p>Jakie znasz systemy operacyjne (możesz wybrać kilka opcji trzymając klawisz Ctrl)?</p>
 <select name="System operacyjny" multiple size="3">
 	<option selected>Windows</option>
@@ -66,20 +65,52 @@
 	<option>Linux</option>
 	<option>Inny</option>
 </select>
-<!-- Pole komentarza (o powiększonych rozmiarach oraz z tekstem domyślnym) -->
+
 <p>Podaj swój komentarz:</p>
 <textarea name="Komentarz" cols="50" rows="10">Proszę, wpisz tutaj jakiś komentarz...</textarea>
 <br><br><br>
-<!-- Przycisk WYŚLIJ -->
-<input type="submit" value="Wyślij formularz">
-<!-- Przycisk WYCZYŚĆ DANE -->
+
+<p>zwierze to?</p>
+<select name="Pglud">
+	<option>ptak</option>
+	<option>radziecki</option>
+	<option>Firefox</option>
+    <option>listya</option>
+</select> <br> <br> <br>
+
+<button type="button"  name="agrest34" value="allleprt" onclick="alert('a może z linuxa')"> <img src="foty/m_ms.jpg" border="1" width="200">  </button> <br> <br> <br> <br> <br> <br>
+ 
+<form action="index.html" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  0
+  <input type="range" id="a" name="a" value="50">
+  100 +
+  <input type="number" id="b" name="b" value="50">
+  =
+  <output name="x" for="a b">100</output>
+  <br><br>
+  <input type="submit">
+</form> <br> <br> <br> <br> <br> <br>
+
+<input name="gra" id="gry" onfocus="focusfunction()" onblur="blurfunction()">Podaj favorite gejm<br> <br> <br> <br> <br> <br> <br>
+
+
+<button type="button"  name="agrest" value="alllert" onclick="alert('nie ma to jak jedyneczka z PSI o poranku')"> WYŚLIJ TERAZ </button>
+
 <input type="reset" value="Wyczyść dane">
-</div></form>
+</div>
 
 </form>
 </div>
 <div style="background-color:grey; clear:both;"><center> &copy; R.K., Oktober 2024 </center></div>
 
+<script>
+	function focusfunction() {
+		document.getElementById("gry").style.background="yellow"
+		}
+	function blurfunction() {
+		document.getElementById("gry").style.background="red"
+		}
+</script> <br> <br> <br> <br> <br> <br>
 
 </body>
 </html> 
