@@ -32,6 +32,7 @@ h3{
 	text-align:left;
 	line-height:15px;
 	text-transform:uppercase;
+	cursor:help;
 	}
 h1{
 	text-decoration:overline;
@@ -143,8 +144,76 @@ h2#ramka3b{
 	border:50px solid;
 	border-image:URL(foty/fish.gif) 20 round;
 	}
+		a.t1 {
+			color:black;
+			text-decoration:none;
+			background-color: fuchsia;
+			border-radius: 5px;
+			border-color: black;
+			border: 3px solid;
+		}
+
+		a.t1:hover {
+			color:yellow;
+			text-decoration: none;
+			background-color: green;
+			border: 3px dotted;
+			border-color: yellow;
+			border-radius: 5px;
+		}
+
+		a.t2{
+			color:black;
+			background-color: yellow;
+			border: 3px black double;
+			padding: 2px;
+			border-radius: 5px;
+			background-clip: content-box;
+		}
+
+		a.t2:hover{
+			color:cyan;
+			background-color: green;
+			border: 3px  cyan ridge;
+			padding: 2px;
+			border-radius:5px;
+			background-clip: content-box;
+		}
+ul.trak{
+		color:violet;
+		list-style: circle outside;
+		font-family:arial;
+		}
+ol.l{		
+		color:green;
+		list-style: upper-alpha inside;
+		font-family:helvetica;
+		}
+ol.gif{
+		list-style-image: url(foty/fish.gif);
+		}
+li.g1{	
+		list-style-image: url(foty/fi.gif);
+		}
+li.g2{
+		list-style-image: url(foty/trus.gif);
+		}
+table.t12{
+	border:solid black 5px;
+	cursor:crosshair;
+	}
+	
+div#rozmiar{
+	height:8%;
+	width:45%;
+	border:dotted lime 5px;
+	padding:10px 15px 20px 25px;
+	}
+body.f{
+	margin:0px 10px 5px;
+	}
 </style> </head>
-<body>
+<body class="f">
 <div style="background-color:grey;">
 	<h1> <center> Projektowanie Stron Internetowych - Rafał Król </center> </h1>
 </div>
@@ -212,6 +281,52 @@ zadanie IV – OBRAMOWANIE:<br />
 <h2 id="ramka3"> ssssssssssssssssssssss </h2> <br /><br />
 <h2 id="ramka3a"> ssssssssssssssssssssss </h2> <br /><br />
 <h2 id="ramka3b"> ssssssssssssssssssssss </h2> <br /><br />
+
+<a class="t1" href="https://www.onet.pl/" target="new"> ONET </a> &nbsp;&nbsp;&nbsp;
+	<a class="t1" href="https://www.wp.pl/" target="new"> WIRTUALNA POLSKA </a> &nbsp;&nbsp;&nbsp;
+	<a class="t1" href="https://tsi-pai.cba.pl/" target="new"> TSI - PAI </a> &nbsp;&nbsp;&nbsp; </br></br></br>
+	<a class="t2" href="https://www.onet.pl/" target="new"> ONET </a> &nbsp;&nbsp;&nbsp;
+	<a class="t2" href="https://www.wp.pl/" target="new"> WIRTUALNA POLSKA </a> &nbsp;&nbsp;&nbsp;
+	<a class="t2" href="https://tsi-pai.cba.pl/" target="new"> TSI - PAI </a> &nbsp;&nbsp;&nbsp; </br>
+
+<br /><br />
+
+<ul class="trak"> Zalety PSI
+	<li> Szybkie komputery (tyle że nie)
+	<li> CSS i html
+	<li> Rodzinna atmosfera ( też nie )
+	<li> 3h pod rząd 
+	<li> brak uczucia zmęczenia ( no niedokońca )
+</ul> </br> </br>
+<ol class="l"> Wady PSI
+	<li> Równomierne rozłożenie godzin w tyg
+	<li> kompy z ziemniaków
+	<li> proc z marchewki
+</ol> </br> </br>
+
+<ol class="gif"> Lista 
+<li class="g2"> Kupić prezenty
+<li class="g1"> choinka
+<li class="g2"> posprzątać
+<li class="g1"> dania
+</ol>
+<br /><br />
+
+<table class="t12">
+	<tr>
+		<td> nie ma <td>
+	</tr>
+</table>
+<br /><br />
+
+<div id="rozmiar"> Bardzo fajny div z <h3> Zadanka  VIII </h3> </div> <br /><br />
+<h3> Zadanie IX </h3>
+
+
+
+
+
+
 </div>
 <div style="background-color:grey; clear:both;"><center> &copy; R.K., Oktober 2024 </center></div>
 
